@@ -17,12 +17,8 @@
 </head>
 <body>
   <div class="background"></div>
-  {% include "main_app/layouts/navbar.html" %}
+  {% include "main_app/components/navbar.html" %}
   <i class="fa-solid fa-bars fa-2x align-right" aria-hidden="true"></i>
-  <div class="container d-flex align-items-center" style="height: 100%;">
-    <div class="justify-content-center" >
-      {% block content %}{% endblock content %}
-    </div>
-  </div>
+    {% block content %}{% endblock content %}
 </body>
 </html>
