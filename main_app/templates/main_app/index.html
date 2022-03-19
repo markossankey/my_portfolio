@@ -3,12 +3,6 @@
 {% block title %}Home Page{% endblock title %}
 
 {% block content %}
-<div class="container d-flex align-items-center" style="height: 100%;">
-  <div class="justify-content-center" >
-    <h1 id="home-h1">
-      Hey I'm <strong class='h1-home-bold'>Markos</strong>,<br> and I'm a <strong class='h1-home-bold'>Software Engineer</strong>
-    </h1>
-  </div>
-</div>
+  {% include 'main_app/components/intro.html' %}
   {% include 'main_app/components/about_me.html' %}
 {% endblock content %}
