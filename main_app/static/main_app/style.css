@@ -37,4 +37,25 @@ body {
   padding: 2rem;
 }
 
+.skill-and-certs {
+  display: grid;
+}
+
+.cert-badge {
+  height: 10rem;
+}
+
+.skill-badge {
+  width: 10rem;
+  background-color: transparent;
+  border: none;
+}
+
+.skill-badge > img {
+  width: 90%;
+  height: auto;
+}
+
+
+
 
