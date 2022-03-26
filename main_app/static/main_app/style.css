@@ -1,7 +1,8 @@
 :root {
   --text: white;
   --dark-blue: #023C4A;
-  --dark-grey: #2D3B3E
+  --card-blue: #1d4049;
+  --dark-grey: #2D3B3E;
 }
 
 body {
@@ -31,10 +32,11 @@ body {
   margin-bottom: 2rem;
 }
 
-#about-section {
+#section {
+  padding: 2rem; 
   border: 2px solid white;
-  border-radius: 7px;
-  padding: 2rem;
+  border-radius: 10%;
+  margin-top: 5rem;
 }
 
 .skill-and-certs {
@@ -42,11 +44,19 @@ body {
 }
 
 .cert-badge {
-  height: 10rem;
+  width: 13rem;
+  background-color: transparent;
+  border: none;
+
+}
+
+.cert-badge > img {
+  width: 90%;
+  height: auto;
 }
 
 .skill-badge {
-  width: 10rem;
+  width: 8rem;
   background-color: transparent;
   border: none;
 }
@@ -56,6 +66,12 @@ body {
   height: auto;
 }
 
+.skill-badge > div > p {
+  font-size: .8rem;
+}
 
+#project-card {
+  padding: 0;
+}
 
 
